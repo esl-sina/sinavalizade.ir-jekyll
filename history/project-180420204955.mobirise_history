@@ -37,13 +37,15 @@
     "noImageResize": "",
     "siteUrl": "https://esl-sina.github.io/",
     "versionFirst": "4.6.7",
-    "uniqCompNum": 14,
+    "uniqCompNum": 13,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///E:/social%20media%20work/Website/esl-sina.github.io"
   },
   "pages": {
     "index.html": {
@@ -86,25 +88,25 @@
             "token": "5885609409.727bfe1.8cdf1d850cde43e897a916a6f585e225",
             "showTitle": true,
             "layoutGridRadio": true,
-            "imagesPerRowGrid": 4,
-            "rows": 2,
+            "imagesPerRowGrid": "3",
+            "rows": "2",
             "showMoreButton": true,
             "layoutSliderRadio": false,
             "imagesPerRowSlider": 4,
-            "spacing": 5,
+            "spacing": "0",
             "fullWidth": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColorRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColorRadio": true,
             "bgColor": "#fafafa",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": false,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
           },
-          "title": "اینستاگرام",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">پست های بیشتر</a>",
+          "title": "Instagram Feed",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
           "display2": "display-2",
           "display4": "display-4",
           "alias": "instagram-feed",
@@ -112,7 +114,7 @@
             "Extension"
           ],
           "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-d"
+          "_anchor": "instagram-feed-block-c"
         },
         {
           "_styles": {
