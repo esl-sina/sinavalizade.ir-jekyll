@@ -48,7 +48,9 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///D:/Dev/GitHub/esl-sina.github.io"
   },
   "pages": {
     "index.html": {
