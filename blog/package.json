@@ -1,0 +1,32 @@
+{
+  "name": "pooya-golchian.github.io",
+  "version": "1.0.0",
+  "description": "I'm Pooya Golchian, who loves OpenSource and Programming.",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-svgmin": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pooya-golchian/pooya-golchian.github.io.git"
+  },
+  "author": "Pooya Golchian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pooya-golchian/pooya-golchian.github.io/issues"
+  },
+  "homepage": "https://github.com/pooya-golchian/pooya-golchian.github.io#readme"
+}
