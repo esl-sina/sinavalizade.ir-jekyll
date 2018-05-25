@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: سینا ولیزاده
+title: سینا ولی‌زاده
 locale: fa_IR
 description: مدرس زبان انگلیسی، آیلتس ، تافل
 logo: site-logo.png
@@ -50,26 +50,26 @@ titlecase: true
 
 # Site owner
 owner:
-  name: پویا گلچیان
+  name: سینا ولی‌زاده
   avatar: bio-photo.jpg
-  email: pooya.golchian@gmail.com
-  date: ۲۰۱۷
-  disqus-shortname: pooyagolchianir
+  email: sina.s.valizade@gmail.com
+  date: ۲۰۱۸
+  disqus-shortname: #username
   twitter: #username
   facebook: #username
-  github: pooya-golchian
-  stackexchange: http://stackexchange.com/users/2606239/pooya-golchian
-  linkedin: pooyagolchian
-  instagram: #username
+  github: sinaval
+  stackexchange: #user
+  linkedin: #username
+  instagram: sinavalizade.ir
   flickr: #username
   tumblr: #username
   pinterest: #username
   weibo: #userid
-  behence: pooya-golchian
-  telegram: icoder
+  behence: #username
+  telegram: valizade_sina
   google:
     plus: #username
-    analytics: UA-114457345-1
+    analytics: #UA-114457345-1
     verify:
     ad-client:
     ad-slot:
