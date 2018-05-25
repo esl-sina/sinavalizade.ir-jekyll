@@ -6,7 +6,7 @@ description: مدرس زبان انگلیسی، آیلتس ، تافل
 logo: site-logo.png
 search: true
 # url: http://localhost:4000
-url: http://sinavalizade.ir/
+url: http://sinavalizade.ir
 
 
 # Jekyll configuration
@@ -76,5 +76,5 @@ owner:
   bing-verify:
 
 baseurl: #
-production_url : http://sinaval.github.io.com/
-BASE_PATH : http://sinavalizade.ir/
+production_url : http://sinaval.github.io.com
+BASE_PATH : http://sinavalizade.ir
