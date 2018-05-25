@@ -9,6 +9,15 @@
 		 url('../fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
 }
 @font-face {
+	font-family: Gandom;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/Gandom/Gandom-FD.eot');
+	src: url('../fonts/Gandom/Gandom-FD.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/Gandom/Gandom-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../ffonts/Gandom/Gandom-FD.ttf') format('truetype');
+}
+@font-face {
 	font-family: IRANSans;
 	font-style: normal;
 	font-weight: bold;
