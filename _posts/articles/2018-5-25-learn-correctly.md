@@ -7,7 +7,7 @@ excerpt: "طی سالهای تدریس متوجه‌ی این شدم که زبا
 tags: [زبان, یادگیری]
 comments: true
 share: true
-author: Sina Valizade
+author: سینا ولی‌زاده
 image:
   feature:
 date: 2018-02-25T02:02:07+03:30
