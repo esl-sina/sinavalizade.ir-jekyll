@@ -26,14 +26,6 @@
         {% endif %}
       </header>
       <footer class="entry-meta">
-          {% capture time %}{{ content | reading_time }}{% endcapture %}
-          <p>
-              <i class="fas fa-calendar"></i>
-              {{ page.date | jdate: "%A %d %b %Y" | habify}}<br>
-              
-              <i class="fas fa-stopwatch"></i>
-              {{ time | habify }} دقیقه مطالعه
-            </p>
         {% if page.author %}
           {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
         {% endif %}
