@@ -6,3 +6,5 @@ gem "jekyll-gist"
 gem "octopress"
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-jalali'
+gem "jekyll-hinduarabic"
+gem "liquid_reading_time"
