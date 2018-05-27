@@ -5,3 +5,4 @@ gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem "octopress"
 gem 'jekyll-admin', group: :jekyll_plugins
+gem 'jekyll-jalali'
