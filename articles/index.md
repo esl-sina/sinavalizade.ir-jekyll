@@ -1,7 +1,7 @@
 ---
-layout: page
 title: مقاله ها
-excerpt: "مقاله نوشته شده توسط خودم."
+layout: page
+excerpt: مقاله نوشته شده توسط خودم.
 search_omit: true
 ---
 

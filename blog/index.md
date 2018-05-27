@@ -1,7 +1,7 @@
 ---
-layout: page
 title: وبلاگ
-excerpt: "وبلاگم و نوشته های شخصیم."
+layout: page
+excerpt: وبلاگم و نوشته های شخصیم.
 search_omit: true
 ---
 

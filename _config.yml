@@ -1,80 +1,88 @@
-# Site wide configuration
-
+---
 title: سینا ولی‌زاده
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 locale: fa_IR
 description: مدرس زبان انگلیسی، آیلتس ، تافل
 logo: site-logo.png
 search: true
-# url: http://localhost:4000
 url: http://sinavalizade.ir
-
-
-# Jekyll configuration
-permalink:   /:title/
-markdown:    kramdown
+permalink: "/:title/"
+markdown: kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
 gems:
-  - jekyll-sitemap
-  - jekyll-gist
-
+- jekyll-sitemap
+- jekyll-gist
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..2
   enable_coderay: false
-
 mathjax: true
-
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-
-# Octopress
-
-# Default extensions
+include:
+- ".htaccess"
+exclude:
+- lib
+- config.rb
+- Capfile
+- config
+- log
+- Rakefile
+- Rakefile.rb
+- tmp
+- less
+- "*.sublime-project"
+- "*.sublime-workspace"
+- test
+- spec
+- Gruntfile.js
+- package.json
+- node_modules
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- vendor
 post_ext: md
 page_ext: md
-
-# Found in _templates/
 post_layout: post
 page_layout: page
-
-# Format titles with titlecase?
 titlecase: true
-
-
-# Site owner
 owner:
   name: سینا ولی‌زاده
   avatar: bio-photo.jpg
   email: sina.s.valizade@gmail.com
   date: ۲۰۱۸
-  disqus-shortname: #username
-  twitter: #username
-  facebook: #username
+  disqus-shortname: 
+  twitter: 
+  facebook: 
   github: sinaval
-  stackexchange: #user
-  linkedin: #username
+  stackexchange: 
+  linkedin: 
   instagram: sinavalizade.ir
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  behence: #username
+  flickr: 
+  tumblr: 
+  pinterest: 
+  weibo: 
+  behence: 
   telegram: valizade_sina
   google:
-    plus: #username
-    analytics: #UA-114457345-1
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-
-baseurl: #
-production_url : http://sinaval.github.io.com
-BASE_PATH : http://sinavalizade.ir
+    plus: 
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+baseurl: 
+production_url: http://sinaval.github.io.com
+BASE_PATH: http://sinavalizade.ir

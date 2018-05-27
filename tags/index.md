@@ -1,7 +1,7 @@
 ---
-layout: page
 title: برچسب‌ها
-excerpt: "بایگانی وب‌سایت بر اساس برچسب‌ها"
+layout: page
+excerpt: بایگانی وب‌سایت بر اساس برچسب‌ها
 search_omit: true
 ---
 

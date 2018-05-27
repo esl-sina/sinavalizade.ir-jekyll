@@ -1,11 +1,10 @@
 ---
+title: جستجو
 layout: page
-title: "جستجو"
-date:
-modified:
-excerpt:
+modified: 
+excerpt: 
 image:
-  feature:
+  feature: 
 search_omit: true
 sitemap: false
 ---
