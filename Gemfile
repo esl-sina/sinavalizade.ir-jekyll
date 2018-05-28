@@ -10,4 +10,6 @@ group :jekyll_plugins do
     gem 'jalalidate'
     gem "jekyll-hinduarabic"
     gem 'liquid_reading_time'
+    gem "tzinfo"
+    gem "tzinfo-data"
 end
