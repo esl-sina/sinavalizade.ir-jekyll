@@ -56,7 +56,7 @@
       </footer>
       <div class="entry-content">
         {{ content }}
-        {% if (site.owner.disqus-shortname and page.comments) or site.comments %}
+        {% if site.staticmanUrl %}
           <div id="#comment_thread"></div><!-- /##comment_thread -->
           {% include static-comments.html %}
         {% endif %}
