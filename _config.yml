@@ -13,7 +13,7 @@ description: مدرس زبان انگلیسی، آیلتس ، تافل
 logo: site-logo.gif
 search: true
 url: http://sinavalizade.ir
-permalink: "/:category/:title/"
+permalink: "/:categories/:title/"
 markdown: kramdown
 highlighter: rouge
 sass:
