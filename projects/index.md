@@ -1,8 +1,8 @@
 ---
-title: پروژه های من
+title: "پروژه های من"
 layout: page
-excerpt: پروژه های انجام شده توسط سینا ولی زاده
-modified: 2016-01-19 00:00:00 Z
+excerpt: "پروژه های انجام شده توسط سینا ولی زاده"
+modified: 2016-01-19 00:00:00 +0000
 image:
   "<!--feature": bg4.jpg-->
   "<!--credit": OpenSource!-->
