@@ -8,7 +8,6 @@
 </head>
 
 <body id="post">
-
 {% include navigation.html %}
 
 <div id="main" role="main">
@@ -35,22 +34,22 @@
           <img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"></a>
         {% endif %}
         <span class="author vcard">توسط <span class="fn">{{ author.name }}</span></span>
-        <span class="entry-date date published"><time id='date' datetime="{{page.date | date_to_xmlschema}}"></time></span>
-        {% if page.modified %}<span class="entry-date date modified"><time id='mdate' datetime=" {{page.modified | date_to_xmlschema}}"></time></span>{% endif %}
+        <span class="entry-date date published"><i class="fa fa-calendar-o"></i><time id='date' datetime="{{page.date | date_to_xmlschema}}"></time></span>
+        {% if page.modified %}<span class="entry-date date modified"><i class="fa fa-pencil"></i><time id='mdate' datetime=" {{page.modified | date_to_xmlschema}}"></time></span>{% endif %}
         
         <script>
           var date = '{{page.date}}'
           moment.loadPersian(true);
           var jalaliDate = moment(date, 'YYYY-M-D HH:mm:ss TZD').format('ddd jD jMMMM jYYYY');
-          document.getElementById("date").innerHTML = '<i class="fa fa-calendar-o">'+ jalaliDate +'</i>';
-
+          document.getElementById("date").innerHTML = jalaliDate;
+        
           var mdate = '{{page.modified}}'
           moment.loadPersian(true);
           var jalaliDate = moment(mdate, 'YYYY-M-D HH:mm:ss TZD').format('ddd jD jMMMM jYYYY');
-          document.getElementById("mdate").innerHTML = '<i class="fa fa-pencil">'+ jalaliDate +'</i>';
+          document.getElementById("mdate").innerHTML = jalaliDate;
         </script>
 
-        
+
         {% if site.staticmanUrl %}<span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#comment_thread">نظر دهید</a></span>{% endif %}
         {% if page.share %}{% include social-share.html %}{% endif %}
         {% if page.ads == true %}{% include ad-sidebar.html %}<!-- /.google-ads -->{% endif %}
