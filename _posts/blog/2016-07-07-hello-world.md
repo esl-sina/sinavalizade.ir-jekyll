@@ -1,6 +1,6 @@
 ---
 title: سلام دنیا
-date: 2016-07-07 09:13:34 Z
+date: 2016-07-07 13:43:34 +04:30
 categories:
 - blog
 tags:
@@ -9,7 +9,7 @@ tags:
 - آیلتس
 - معلم
 layout: post
-modified: 2016-07-07 00:00:00 Z
+modified: 2016-07-07 04:30:00 +04:30
 excerpt: سلام فارسی من به جهان
 comments: true
 share: true
