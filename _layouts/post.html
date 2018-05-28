@@ -36,8 +36,8 @@
         {% endif %}
         <span class="author vcard">توسط <span class="fn">{{ author.name }}</span></span>
         <p id="date" class="date">
-        <span class="entry-date date published"><time datetime="{{page.date | date_to_xmlschema}}"><i class="fa fa-calendar-o"></i></time></span>
-        {% if page.modified %}<span class="entry-date date modified"><time datetime=" {{page.modified | date_to_xmlschema}}"><i class="fa fa-pencil"></i></time></span>{% endif %}
+        <span class="entry-date date published"><time datetime="{{page.date | date_to_xmlschema}}"><i class="fa fa-calendar-o"></i>{{ page.date  | date: "%B %d, %Y"}}</time></span>
+        {% if page.modified %}<span class="entry-date date modified"><time datetime=" {{page.modified | date_to_xmlschema}}"><i class="fa fa-pencil"></i>{{ page.modified | date: "%B %d, %Y"}}</time></span>{% endif %}
         </p>
         {% if site.staticmanUrl %}<span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#comment_thread">نظر دهید</a></span>{% endif %}
         {% if page.share %}{% include social-share.html %}{% endif %}
