@@ -34,7 +34,7 @@
     height: 100px;
     @include animation-duration(1s);
       @include animation-delay(.05s);
-      border: 2px solid $black;
+      border: 0px solid $black;
   }
 }
 
