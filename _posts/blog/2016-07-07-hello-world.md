@@ -1,20 +1,22 @@
 ---
-title: سلام دنیا
-date: 2016-07-07 09:13:34 Z
+title: "سلام دنیا"
+date: 2016-07-07 09:13:34 +0000
 categories:
 - blog
 tags:
-- وبلاگ
+- "وبلاگ"
+- "تافل"
+- "آیلتس"
+- "معلم"
 layout: post
-modified: 2016-07-07 00:00:00 Z
-excerpt: سلام فارسی من به جهان
+modified: 2016-07-07 00:00:00 +0000
+excerpt: "سلام فارسی من به جهان"
 comments: true
 share: true
 author: pooya_golchian
 image:
   feature: 
 ---
-
 ## من یک معلمم
 
 این راه را نهایت صورت کجا توان بست
