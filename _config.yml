@@ -1,7 +1,6 @@
 ---
 title: سینا ولی‌زاده
 timezone: Asia/Tehran
-lang: fa_IR
 collections:
   posts:
     title: Posts
@@ -9,6 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+lang: fa_IR
 description: مدرس زبان انگلیسی، آیلتس ، تافل
 logo: site-logo.gif
 search: true
