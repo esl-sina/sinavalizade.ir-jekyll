@@ -13,7 +13,7 @@ modified: 2016-07-07 00:00:00 Z
 excerpt: سلام فارسی من به جهان
 comments: true
 share: true
-author: pooya_golchian
+author: sina_val
 image:
   feature: 
 ---
