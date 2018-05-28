@@ -7,6 +7,7 @@ group :jekyll_plugins do
     gem "octopress"
     gem 'jekyll-admin'
     gem 'jekyll-jalali'
+    gem 'jalalidate'
     gem "jekyll-hinduarabic"
     gem 'liquid_reading_time'
 end

@@ -124,6 +124,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  jalalidate
   jekyll
   jekyll-admin
   jekyll-gist
