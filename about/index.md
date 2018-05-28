@@ -1,13 +1,14 @@
 ---
-title: "درباه من"
+title: درباه من
 layout: page
-excerpt: "درباره سینا ولی زاده "
-modified: 2014-08-08 23:44:38 +0000
+excerpt: 'درباره سینا ولی زاده '
+modified: 2014-08-08 23:44:38 Z
 image:
   "<!--feature": bg3.jpg-->
   "<!--credit": OpenSource!-->
   "<!--creditlink": "-->"
 ---
+
 ## سینا ولی زاده هستم  .
 
 * متولد ۱۳۷۴ تهران.
