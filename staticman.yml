@@ -1,8 +1,10 @@
-allowedFields: ['address', 'name', 'title', 'description', 'rating']
+comments:
+ allowedFields: ["name", "email", "message"]
+ requiredFields: ["name", "email", "message"]
  branch: master
  commitMessage: "Hey human, here is a new entry."
- filename: "entry{@timestamp}"
- format: yml
  moderation: true
  path: "_data/comments"
-requiredFields: ['name', 'title', 'description', 'rating']
+ filename: "entry{@timestamp}"
+ format: yml
+ allowedOrigins: ["localhost", "sinavalizade.ir"]
