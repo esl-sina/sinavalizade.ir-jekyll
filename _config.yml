@@ -1,5 +1,6 @@
 ---
 title: سینا ولی‌زاده
+timezone: UTC
 collections:
   posts:
     title: Posts
@@ -7,8 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-#locale: fa_IR
-#timezone: UTC
 description: مدرس زبان انگلیسی، آیلتس ، تافل
 logo: site-logo.gif
 search: true
@@ -32,8 +31,7 @@ kramdown:
 mathjax: true
 include:
 - ".htaccess"
-exclude:
-#
+exclude: 
 post_ext: md
 page_ext: md
 post_layout: post
