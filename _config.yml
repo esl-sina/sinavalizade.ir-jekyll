@@ -1,6 +1,6 @@
 ---
 title: سینا ولی‌زاده
-#timezone: UTC
+timezone: UTC
 collections:
   posts:
     title: Posts
