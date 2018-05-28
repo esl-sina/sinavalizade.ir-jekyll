@@ -3,7 +3,7 @@
 <section class="comments">
 	<div class="constrain--body">
 		<div class="comments__existing js-comments" {% if site.data.comments[post_slug] == null %}aria-hidden="true"{% endif %}>
-			<h2 class="comments__heading heading-2">Comments</h2>
+			<h2 class="comments__heading heading-2">نظرات</h2>
 
 			{% if site.data.comments[post_slug] %}
 				{% assign comments = site.data.comments[post_slug] | sort %}
@@ -20,7 +20,7 @@
 			{% endif %}
 		</div>
 
-		<h2 class="comments__heading heading-2">Leave a comment</h2>
+		<h2 class="comments__heading heading-2">شما چه فکر می‌کنید؟</h2>
 		{% include post-new-comment.html %}
 	</div>
 </section>
