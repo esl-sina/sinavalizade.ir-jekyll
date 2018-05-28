@@ -23,11 +23,4 @@
   })();
 </script>
 
-<script>
-  var date = '{{page.date}}'
-  moment.loadPersian(true);
-  var jalaliDate = moment(date, 'YYYY-M-D HH:mm:ss TZD').format('ddd jD jMMMM jYYYY');
-  document.getElementById("date").innerText = jalaliDate
-</script>
-
 {% endif %}
