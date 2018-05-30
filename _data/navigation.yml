@@ -1,23 +1,11 @@
-# Site navigation links
-- title: انگلیسی
-  url: /en/
-
-- title: جستجو
-  url: /search/
-
-- title: درباره‌من
-  url: /about/
-
-- title: پروژه‌ها
-  url: /projects/
-
-- title: مقاله‌ها
-  url: /articles/
-
-- title: وبلاگ
-  url: /blog/
-
-
-
-#- title: Sina Val
-#  url: http://sinavalizade.ir
+---
+- title: "جستجو"
+  url: "/search/"
+- title: "درباره‌من"
+  url: "/about/"
+- title: "پروژه‌ها"
+  url: "/projects/"
+- title: "مقاله‌ها"
+  url: "/articles/"
+- title: "وبلاگ"
+  url: "/blog/"
