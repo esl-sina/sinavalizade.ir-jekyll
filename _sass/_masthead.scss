@@ -30,8 +30,8 @@
 
 .site-logo {
   img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     @include animation-duration(1s);
       @include animation-delay(.05s);
       border: 0px solid $black;
