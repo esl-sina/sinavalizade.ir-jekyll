@@ -1,15 +1,28 @@
 # Site navigation links
-- title: انگلیسی
-  url: /en/
 
 - title: جستجو
   url: /search/
 
+  - title: Reading
+  url: /reading/
+
+  - title: Listening
+  url: /listening/
+
+  - title: Speaking
+  url: /speaking/
+
+  - title: Writing
+  url: /writing/
+
+  - title: Grammar
+  url: /grammar/
+
+  - title: Vocab
+  url: /vocab/
+
 - title: درباره‌من
   url: /about/
-
-- title: پروژه‌ها
-  url: /projects/
 
 - title: مقاله‌ها
   url: /articles/
@@ -19,6 +32,6 @@
 
 - title: خانه
   url: /
-  
+
 #- title: Sina Val
 #  url: http://sinavalizade.ir
