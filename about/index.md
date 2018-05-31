@@ -33,15 +33,15 @@ image:
 
 تلگرام: 
 
-@En_Online
+[_@En_Online_](https://telegram.me/en_online)
 
-@English_Vocab
+[_@English_Vocab_](https://telegram.me/english_vocab)
 
-@English_Report
+[_@English_Report_](https://telegram.me/english_report)
 
-@English_Lit
+[_@English_Lit_](https://telegram.me/english_lit)
 
-@En_Quotes
+[_@En_Quotes_](https://telegram.me/en_quotes)
 
 ## جزوه آموزشی من
 
