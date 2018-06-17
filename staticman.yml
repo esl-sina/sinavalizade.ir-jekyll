@@ -3,7 +3,7 @@ comments:
  requiredFields: ["name", "email", "message"]
  branch: master
  commitMessage: "Hey human, here is a new entry."
- moderation: true
+ moderation: false
  path: "_data/comments"
  filename: "entry{@timestamp}"
  format: yml
