@@ -1,12 +1,12 @@
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
-      {% for link in site.data.navigation %}
+        {% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
 		        {% else %}
 		        {% assign domain = site.url %}
-		    {% endif %}
+			{% endif %}
 			{% if link.sublinks %}
 					<li class="dropdown {{ class }}">
 						<a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>

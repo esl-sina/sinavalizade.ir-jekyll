@@ -50,9 +50,6 @@
       color: $black;
     }
   }
-  nav li.active a {
-    color: #910255;
-  }
 }
 
 /*
@@ -97,8 +94,7 @@
 #nav-toggle {
   z-index: 20;
   display: block;
-  float: top;
-//vertical-align: top;
+  vertical-align: top;
   margin: 0;
   padding: 6px 20px;
   height: 30px;
