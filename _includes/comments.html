@@ -1,7 +1,7 @@
 <section class="comments">
         <div class="constrain--body">
             <div class="comments__existing js-comments" {% if comments == null %}aria-hidden="true"{% endif %}>
-                <h2 class="comments__heading heading-2">Comments</h2>
+                <h2 class="comments__heading heading-2">نظرات</h2>
     
                 {% for comment in comments %}
                     <article id="comment{{ forloop.index }}" class="js-comment comment">
@@ -23,7 +23,7 @@
                 {% endfor %}
             </div>
     
-            <h2 class="comments__heading heading-2">Leave a comment</h2>
+            <h2 class="comments__heading heading-2"> شما چه فکر می‌کنید؟ </h2>
     
             {% assign slug = page.inputPath | split: '/' | last | split: '.' | first %}
     
