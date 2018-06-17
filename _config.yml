@@ -66,4 +66,4 @@ owner:
 baseurl: 
 production_url: http://sinaval.github.io.com
 BASE_PATH: http://sinavalizade.ir
-staticmanUrl: https://api.staticman.net/v2/entry/esl-sina/esl-sina.github.io/master/
+staticmanUrl: https://api.staticman.net/v2/entry/esl-sina/esl-sina.github.io/master/comments
