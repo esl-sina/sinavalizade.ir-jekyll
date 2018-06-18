@@ -42,7 +42,7 @@ comments:
   name: "sinavalizade.ir"
   
   notifications:
-    enabled: true
+    enabled: false
 
   # (*) REQUIRED
   #
@@ -65,7 +65,7 @@ comments:
   transforms:
     email: md5
 
-  reCaptcha:
-    enabled: true
-    siteKey: "6LcEWV8UAAAAABUdbMWr3aihp9ir3xjmV4sqTLZy"
-secret: "ct9Wf7rENhKM2H00302/0Wv+KM3MO7GIooGCDqnMTxwQxmruPXtRBruYUE/pT7nKRnXyGpTkWA6GY2PratWOQpv/SiyoTeMzk0tArmSZKhDPq1vaFyFAi3/85GYvXHb1L+0ZIPYWKxaN35fetBUFEV3Xfvx/47toaH98BqTbdIY="
+#  reCaptcha:
+#    enabled: false
+#    siteKey: "6LcEWV8UAAAAABUdbMWr3aihp9ir3xjmV4sqTLZy"
+# secret: "ct9Wf7rENhKM2H00302/0Wv+KM3MO7GIooGCDqnMTxwQxmruPXtRBruYUE/pT7nKRnXyGpTkWA6GY2PratWOQpv/SiyoTeMzk0tArmSZKhDPq1vaFyFAi3/85GYvXHb1L+0ZIPYWKxaN35fetBUFEV3Xfvx/47toaH98BqTbdIY="
