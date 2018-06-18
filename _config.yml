@@ -64,6 +64,10 @@ owner:
     ad-slot: 
   bing-verify: 
 baseurl: 
-production_url: http://sinaval.github.io.com
+production_url: http://esl-sina/esl-sina.github.io
 BASE_PATH: http://sinavalizade.ir
+
+repository: "esl-sina/esl-sina.github.io"
+staticman:
+  branch: "master"
 staticmanUrl: https://api.staticman.net/v2/entry/esl-sina/esl-sina.github.io/master/comments
