@@ -1,5 +1,6 @@
 <section class="comments">
         <div class="constrain--body">
+            <!-- Comments -->
             <div class="comments__existing js-comments" {% if comments == null %}aria-hidden="true"{% endif %}>
                 <h2 class="comments__heading heading-2">نظرات</h2>
     
@@ -22,23 +23,17 @@
                     </article>
                 {% endfor %}
             </div>
-    
+            <!-- New Comment -->
             <h2 class="comments__heading heading-2"> شما چه فکر می‌کنید؟ </h2>
-    
-            {% assign slug = page.inputPath | split: '/' | last | split: '.' | first %}
-    
+
             <form id="post-new-comment" class="form" action="{{ site.staticmanUrl }}" method="post">
-            <input type="hidden" name="options[slug]" value="{{ slug }}">
-            <input type="hidden" name="options[parent]" value="{{ slug }}">
-            <input type="hidden" name="options[origin]" value="{{ site.url }}{{ page.url | }}">
-            <input name="options[redirect]" type="hidden" value="https://sinavalizade.ir">
-            <input type="text" name="company" class="text-field" style="display: none">
+            <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+            <input name="options[redirect]" type="hidden" value="{{ page.url }}">
             <input class="form__field text-field" type="text" name="fields[name]" placeholder="نام" required/>
             <input class="form__field text-field" type="email" name="fields[email]" placeholder="پست الکترونیکی" required/>
-            <input class="form__field text-field" type="address" name="fields[address]" placeholder="Address (do not fill!)" style="display: none"/>
             <textarea class="form__field text-field" rows="10" name="fields[message]" placeholder="نظر خود را بنویسید." required></textarea>
             <input id="form-subscribe" type="checkbox" name="options[subscribe]" value="email" class="checkbox">
-            <label for="form-subscribe" class="form__field checkbox__label">مرا از نظرات جدید با خبر کن!</label>
+            <label for="form-subscribe" class="form__field checkbox__label" style="display: inline-block">مرا از نظرات جدید با خبر کن!</label>
             <input class="cta" type="submit" value="Send" />
             </form>
         </div>
