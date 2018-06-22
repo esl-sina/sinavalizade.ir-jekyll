@@ -28,7 +28,7 @@
 
             <form id="post-new-comment" class="form" action="{{ site.staticmanUrl }}" method="post">
             <input type="hidden" name="options[slug]" value="{{ page.slug }}">
-            <input name="options[redirect]" type="hidden" value="{{ page.url }}">
+            <input name="options[redirect]" type="hidden" value="{{ config.url }}{{ page.url | }}">
             <input class="form__field text-field" type="text" name="fields[name]" placeholder="نام" required/>
             <input class="form__field text-field" type="email" name="fields[email]" placeholder="پست الکترونیکی" required/>
             <textarea class="form__field text-field" rows="10" name="fields[message]" placeholder="نظر خود را بنویسید." required></textarea>
