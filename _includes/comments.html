@@ -1,23 +1,26 @@
 <section class="comments">
         <div class="constrain--body">
             <!-- Comments -->
-            <div class="comments__existing js-comments" {% if comments == null %}aria-hidden="true"{% endif %}>
+            {% if site.data.comments[page.slug] %}
+            {% assign comments = site.data.comments[page.slug] | sort %}
+            {% endif %}
+            <div class="comments__existing js-comments" {% if comments == null %} aria-hidden="true" {% endif %}>
                 <h2 class="comments__heading heading-2">نظرات</h2>
     
                 {% for comment in comments %}
                     <article id="comment{{ forloop.index }}" class="js-comment comment">
                         <div class="comment__avatar-wrapper">
-                            <img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ comment.email }}?d=mm&s=100">
+                            <img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ comment[1].email }}?d=mm&s=100">
                         </div>
                         <div class="comment__content-wrapper">
-                            <h3 class="comment__author">{{ comment.name }}</h3>
+                            <h3 class="comment__author">{{ comment[1].name }}</h3>
                             <p class="comment__date">
                                 <a href="#comment{{ forloop.index }}">
-                                    {{ comment.date | fullDate }}
+                                    {{ comment[1].date | date: "%B %d, %Y" }}
                                 </a>
                             </p>
                             <div class="comment__body">
-                                {{ comment.message | markdownify }}
+                                {{ comment[1].message | markdownify }}
                             </div>
                         </div>
                     </article>
@@ -34,8 +37,9 @@
             <textarea class="form__field text-field" rows="10" name="fields[message]" placeholder="نظر خود را بنویسید." required></textarea>
             <input id="form-subscribe" type="checkbox" name="options[subscribe]" value="email" class="checkbox">
             <label for="form-subscribe" class="form__field checkbox__label" style="display: inline-block">مرا از نظرات جدید با خبر کن!</label>
-            <br>
+
             <input class="cta" type="submit" value="Send" />
+
             </form>
         </div>
     </section>
