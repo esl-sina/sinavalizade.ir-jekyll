@@ -10,7 +10,7 @@ collections:
     output: true
 lang: fa_IR
 description: مدرس زبان انگلیسی
-logo: site-logo.png
+#logo: site-logo.png
 search: true
 url: http://sinavalizade.ir
 permalink: "/:categories/:title/"

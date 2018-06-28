@@ -3,8 +3,14 @@
    ========================================================================== */
 
 .navigation-wrapper {
+  position:fixed;
+  display: block;
+  width:100%;
   text-align: center;
   margin: 0 auto;
+  top:0px;
+  z-index:1;
+  background-color:white;
   @include clearfix;
   @include  media($medium) {
     border-bottom: 1px solid $black;
@@ -58,7 +64,7 @@
 
 #site-nav {
   display: none;
-  z-index: 5;
+  z-index: 2;
   float: left;
   margin: 0 auto;
   text-align: center;
@@ -92,7 +98,7 @@
 }
 
 #nav-toggle {
-  z-index: 20;
+  z-index: 3;
   display: block;
   vertical-align: top;
   margin: 0;
@@ -103,3 +109,9 @@
     display: none;
   }
 }
+
+.dropdown-menu a {
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu a {display: inline-block;}
