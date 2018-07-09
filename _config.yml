@@ -10,7 +10,6 @@ collections:
     output: true
 lang: fa_IR
 description: مدرس زبان انگلیسی
-logo: site-logo.png
 search: true
 url: http://sinavalizade.ir
 permalink: "/:categories/:title/"
@@ -64,6 +63,9 @@ owner:
     ad-slot: 
   bing-verify: 
 baseurl: 
-production_url: http://sinaval.github.io.com
+production_url: http://esl-sina/esl-sina.github.io
 BASE_PATH: http://sinavalizade.ir
-staticmanUrl: https://api.staticman.net/v2/entry/esl-sina/esl-sina.github.io/master/
+repository: esl-sina/esl-sina.github.io
+staticman:
+  branch: master
+staticmanUrl: https://api.staticman.net/v2/entry/esl-sina/esl-sina.github.io/master/comments

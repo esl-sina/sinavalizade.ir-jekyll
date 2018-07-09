@@ -2,34 +2,25 @@
 
 - title: جستجو
   url: /search/
-
-- title: Reading
-  url: /reading/
-
-- title: Listening
-  url: /listening/
-
-- title: Speaking
-  url: /speaking/
-
-- title: Writing
-  url: /writing/
-
-- title: Grammar
-  url: /grammar/
-
-- title: Vocab
-  url: /vocab/
-
 - title: درباره‌من
   url: /about/
-
 - title: مقاله‌ها
   url: /articles/
-
+  sublinks:
+  - title: Reading
+    url: /articles/reading/
+  - title: Listening
+    url: /articles/listening/
+  - title: Speaking
+    url: /articles/speaking/
+  - title: Writing
+    url: /articles/writing/
+  - title: Grammar
+    url: /articles/grammar/
+  - title: Vocab
+    url: /articles/vocabulary/
 - title: وبلاگ
   url: /blog/
-
 - title: خانه
   url: /
 

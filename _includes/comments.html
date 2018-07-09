@@ -1,0 +1,53 @@
+<section class="comments">
+        <div class="constrain--body">
+            <!-- Comments -->
+            {% if site.data.comments[page.slug] %}
+            {% assign comments = site.data.comments[page.slug] | sort %}
+            {% endif %}
+            <div class="comments__existing js-comments" {% if comments == null %} aria-hidden="true" {% endif %}>
+                <h2 class="comments__heading heading-2">نظرات</h2>
+    
+                {% for comment in comments %}
+                    <article id="comment{{ forloop.index }}" class="js-comment comment">
+                        <div class="comment__avatar-wrapper">
+                            <img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ comment[1].email }}?d=mm&s=100">
+                        </div>
+                        <div class="comment__content-wrapper">
+                            <h3 class="comment__author">{{ comment[1].name }}</h3>
+                            <p class="comment__date">
+                                <a href="#comment{{ forloop.index }}">
+                                    {{ comment[1].date | date: "%B %d, %Y" }}
+                                </a>
+                            </p>
+                            <div class="comment__body">
+                                {{ comment[1].message | markdownify }}
+                            </div>
+                        </div>
+                    </article>
+                {% endfor %}
+            </div>
+            <!-- New Comment -->
+            <h2 class="comments__heading heading-2"> شما چه فکر می‌کنید؟ </h2>
+
+            <form id="post-new-comment" class="form" action="{{ site.staticmanUrl }}" method="post">
+            <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+            <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url | }}">
+
+            <input type="hidden" name="options[reCaptcha][siteKey]" value="6LcEWV8UAAAAABUdbMWr3aihp9ir3xjmV4sqTLZy">
+            <input type="hidden" name="options[reCaptcha][secret]" value="ct9Wf7rENhKM2H00302/0Wv+KM3MO7GIooGCDqnMTxwQxmruPXtRBruYUE/pT7nKRnXyGpTkWA6GY2PratWOQpv/SiyoTeMzk0tArmSZKhDPq1vaFyFAi3/85GYvXHb1L+0ZIPYWKxaN35fetBUFEV3Xfvx/47toaH98BqTbdIY=">
+
+            <input class="form__field text-field" type="text" name="fields[name]" placeholder="نام" required/>
+            <input class="form__field text-field" type="email" name="fields[email]" placeholder="پست الکترونیکی" required/>
+            <textarea class="form__field text-field" rows="10" name="fields[message]" placeholder="نظر خود را بنویسید." required></textarea>
+            <input id="form-subscribe" type="checkbox" name="options[subscribe]" value="email" class="checkbox">
+            <label for="form-subscribe" class="form__field checkbox__label" style="display: inline-table">مرا از نظرات جدید با خبر کن!</label>
+
+            <div class="form__recaptcha g-recaptcha" data-sitekey="6LcEWV8UAAAAABUdbMWr3aihp9ir3xjmV4sqTLZy"></div>
+            <script src='https://www.google.com/recaptcha/api.js?hl=fa'></script>
+    
+
+            <input class="cta" type="submit" value="Send" />
+
+            </form>
+        </div>
+    </section>

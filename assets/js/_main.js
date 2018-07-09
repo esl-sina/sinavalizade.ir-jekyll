@@ -52,3 +52,41 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 });
+
+$('#post-new-comment').submit(function () {
+  var formData = $(this).serializeArray();
+  var fieldsWithErrors = [];
+
+  $(formData).each((function (index, element) {
+    var required = $(this).find('[name="' + element.name + '"]').attr('required');
+    var empty = (element.value.trim().length === 0);
+
+    if (required && empty) {
+      fieldsWithErrors.push(element.name);
+    }
+  }).bind(this));
+
+  if (fieldsWithErrors.length === 0) {
+    var postUrl = $(this).attr('action');
+    var payload = $.param(formData);
+
+    $.ajax({
+      type: 'POST',
+      url: postUrl,
+      data: payload,
+      success: function (response) {
+        var message = response.success ? 'Thanks for your comment. It will appear on the site shortly.' : 'Oops! There was an error when submitting your comment. Please try again.';
+
+        toaster(message);
+      },
+      error: function (response) {
+        console.log('** ERROR!');
+        console.log(response);
+      }
+    });
+
+    $(this).get(0).reset();
+  }
+
+  return false;
+});

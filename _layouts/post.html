@@ -58,7 +58,7 @@
         {{ content }}
         {% if site.staticmanUrl %}
           <div id="#comment_thread"></div><!-- /##comment_thread -->
-          {% include static-comments.html %}
+          {% include comments.html %}
         {% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
@@ -78,8 +78,6 @@
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrapper -->
-
 {% include scripts.html %}
-
 </body>
 </html>
