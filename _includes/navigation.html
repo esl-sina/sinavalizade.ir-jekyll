@@ -10,21 +10,16 @@
 		        {% else %}
 		        {% assign domain = site.url %}
 			{% endif %}
-			{% if page.url contains link.url %}
-			{% assign class = 'active' %}
-			{% endif %}
 			{% if link.sublinks %}
-					<li class="dropdown {{ class }}">
+					<li class="{% if page.url contains link.url %} active {% endif %}">
 						<a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
-						<ul class="dropdown-menu">
+						<ul class="articles-menu">
 							{% for sublink in link.sublinks %}
-							{% if page.url contains sublink.url %}
-							{% assign class = 'active' %}
-							{% endif %}
+
 								{% if sublink.title == 'separator' %}
 									<li role="separator" class="divider"></li>
 								{% else %}
-									<li>
+									<li class="{% if page.url contains sublink.url %} active {% endif %}">
 										<a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
 									</li>
 								{% endif %}
