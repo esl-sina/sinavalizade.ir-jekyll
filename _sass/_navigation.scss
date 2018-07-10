@@ -111,7 +111,7 @@
 }
 
 .dropdown-menu a {
-  display: none;
+  display: inline-block;
 }
 
-.dropdown:hover .dropdown-menu a {display: inline-block;}
+/*.dropdown:hover .dropdown-menu a {display: inline-block;}*/
