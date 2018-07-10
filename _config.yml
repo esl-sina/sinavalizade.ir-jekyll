@@ -63,7 +63,7 @@ owner:
     ad-slot: 
   bing-verify: 
 baseurl: 
-production_url: http://esl-sina/esl-sina.github.io
+production_url: http://esl-sina.github.io
 BASE_PATH: http://sinavalizade.ir
 repository: esl-sina/esl-sina.github.io
 staticman:
