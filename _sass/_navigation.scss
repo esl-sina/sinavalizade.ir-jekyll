@@ -56,6 +56,9 @@
       color: $black;
     }
   }
+  nav li.active a {
+    background-color: $yellow;
+}
 }
 
 /*
