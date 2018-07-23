@@ -1,15 +1,16 @@
 ---
-title: آزمون IELTS Speaking ، یک جلسهٔ دونفره (۱)
+title: آزمون IELTS Speaking ، یک جلسهٔ دونفره (قسمت اول)
 date: 2018-07-06 16:45:03 +04:30
 categories:
-- blog
+- articles
+- speaking
 tags:
 - وبلاگ
 - آیلتس
 - speaking
 layout: post
 modified: 2018-07-06 16:45:03 +04:30
-excerpt: آزمون IELTS Speaking ، یک جلسهٔ دونفره (۱)
+excerpt: آزمون IELTS Speaking ، یک جلسهٔ دونفره (قسمت اول)
 comments: true
 share: true
 author: sina_val
