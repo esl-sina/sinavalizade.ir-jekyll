@@ -11,7 +11,7 @@ collections:
 lang: fa_IR
 description: مدرس زبان انگلیسی
 search: true
-url: http://sinavalizade.ir
+url: https://sinavalizade.ir
 permalink: "/:categories/:title/"
 markdown: kramdown
 highlighter: rouge
@@ -63,8 +63,8 @@ owner:
     ad-slot: 
   bing-verify: 
 baseurl: 
-production_url: http://esl-sina.github.io
-BASE_PATH: http://sinavalizade.ir
+production_url: https://esl-sina.github.io
+BASE_PATH: https://sinavalizade.ir
 repository: esl-sina/esl-sina.github.io
 staticman:
   branch: master
